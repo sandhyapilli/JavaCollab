@@ -1,7 +1,10 @@
 package priyanka;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class DuplicateList {
 public static void main(String[] args) {
@@ -19,4 +22,11 @@ public static void main(String[] args) {
 		unique.add(item);
 	}
 }System.out.println(unique);
+//	List<Integer> list= Arrays.asList(1,2,1,2,3);
+//	Set<Integer> result=new HashSet<>(list);
+//	Integer[] afterRemove=result.toArray(new Integer[0]);
+//	for(Integer unique:afterRemove) {
+//		System.out.println(unique);
+//	}
 }}
+	

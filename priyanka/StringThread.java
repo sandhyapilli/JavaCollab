@@ -3,7 +3,7 @@ package priyanka;
 public class StringThread {
 
 	    public static void main(String[] args) {
-	        StringBuilder sb = new StringBuilder("Hello");
+	        StringBuffer sb = new StringBuffer("Hello");
 	        
 	        // Append text
 	        sb.append(" World");

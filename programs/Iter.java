@@ -14,8 +14,13 @@ public static void main(String[] args) {
 	list.add(7);
 	list.add(10);
 	list.add(23);
-//	list.remove(0);
-//	System.out.println(list);
+//	for(Integer result:list) {
+//		if(result%2==0){
+//			list.remove(result);
+//		}
+//	}//it will throw concurrentmodificationException
+	list.remove(0);
+	System.out.println(list);
 	Iterator<Integer> itr=list.iterator();
 	while (itr.hasNext()) {
 		int num = itr.next();
